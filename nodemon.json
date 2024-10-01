@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "app",
+        "public",
+        "config",
+        "lib",
+        "views"
+    ],
+    "ext": "rb, erb, html",
+    "exec": "rails server"
+}

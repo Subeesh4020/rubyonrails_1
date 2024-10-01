@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    height: 20vh;
+    padding: 2vh 2vw;
+    background: #35424a;
+    color: #ffffff;
+    
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+ height: 70vh;
+ padding: 20vh 2vw;
+}
+
+h2 {
+    color: #35424a;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+}
+
+
+.mission {
+ 
+}
+
+.member {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+footer {
+    padding: 2vh 2vw;
+    text-align: center;
+    height: 10vh;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
